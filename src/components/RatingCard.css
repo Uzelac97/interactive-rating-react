@@ -1,0 +1,79 @@
+.rating-card {
+  max-width: 380px;
+  padding: 1.6rem;
+  background: hsl(213, 19%, 15%);
+  border-radius: 0.8rem;
+  margin: 1.4rem;
+}
+
+.icon {
+  background: hsl(213, 19%, 21%);
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 50%;
+  width: 48px;
+  height: auto;
+}
+
+.rating-card h1 {
+  font-size: 1.733rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.rating-card p {
+  color: var(--grey-500);
+  line-height: 1.5;
+  font-size: 1rem;
+  margin-bottom: 1.6rem;
+  font-weight: 400;
+}
+
+.rating-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.rating-list button {
+  width: 48px;
+  height: auto;
+  border-radius: 50%;
+  padding: 1rem;
+  background: hsl(213, 19%, 21%);
+  border: none;
+  color: var(--grey-500);
+  margin-bottom: 1.6rem;
+}
+
+button.selected {
+  background: var(--white);
+  color: var(--grey-950);
+}
+
+button:not(.selected):hover {
+  background: var(--orange);
+  color: var(--grey-950);
+  cursor: pointer;
+}
+
+.submit-btn {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  border-radius: 28px;
+  border: none;
+  background: var(--orange);
+  color: var(--grey-950);
+  text-transform: uppercase;
+  font-size: 0.933rem;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.rating-card .submit-btn:hover {
+  background: var(--white);
+  color: var(--grey-950);
+}

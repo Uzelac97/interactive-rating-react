@@ -1,0 +1,36 @@
+.thank-you-card {
+  max-width: 360px;
+  height: auto;
+  background-color: hsl(213, 19%, 15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.533em 1.867rem 2.4rem 1.867rem;
+  border-radius: 0.8rem;
+}
+
+.thank-you-img {
+  margin-bottom: 1.8rem;
+}
+
+.thank-you-card span {
+  margin-bottom: 2rem;
+  padding: 0.533rem 0.7rem 0.4rem 0.7rem;
+  color: var(--orange);
+  background: hsl(213, 19%, 21%);
+  border-radius: 1.2rem;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.thank-you-card h2 {
+  font-size: 1.733rem;
+  font-weight: 400;
+  margin-bottom: 1.067rem;
+}
+
+.thank-you-card p {
+  text-align: center;
+  line-height: 1.6;
+}
