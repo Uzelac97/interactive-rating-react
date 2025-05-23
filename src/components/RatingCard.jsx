@@ -16,6 +16,7 @@ function RatingCard({ onSelect, onSubmit, selected }) {
         {ratings.map((rating) => (
           <li key={rating}>
             <button
+              type="button"
               className={selected === rating ? "selected" : ""}
               onClick={() => onSelect(rating)}
             >
@@ -24,7 +25,7 @@ function RatingCard({ onSelect, onSubmit, selected }) {
           </li>
         ))}
       </ul>
-      <button className="submit-btn" onClick={onSubmit}>
+      <button type="button" className="submit-btn" onClick={onSubmit}>
         Submit
       </button>
     </div>

@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <>
+    <main>
       {!submitted ? (
         <RatingCard
           selected={selected}
@@ -32,7 +32,7 @@ function App() {
       ) : (
         <ThankYouCard selected={selected} />
       )}
-    </>
+    </main>
   );
 }
 
